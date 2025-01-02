@@ -1,0 +1,7 @@
+fun main() {
+    val n = 5
+    print("$n->\t")
+    for (i in 1..10){
+    	print("$n*$i=" + n*i + "  ")
+    }
+}

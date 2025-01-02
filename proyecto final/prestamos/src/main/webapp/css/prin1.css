@@ -1,0 +1,661 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#header {
+    margin:10px;
+    width:800px;
+    font-family:sans-serif;
+     background-color:#B5B2B2;
+    font-size: 15px
+   
+    
+}
+.nav > p {
+    float:left;
+    text-align: left;
+    text-decoration:none;
+    margin: 2px;
+    display:block;
+}
+
+.nav p a {
+    
+    text-decoration:none;
+    padding:1px;
+    display:block;
+}
+			
+.nav p a:hover {
+    
+    color: orange;
+}
+.nav {
+    width:500px; /*Le establecemos un ancho*/
+    margin:0 auto; /*Centramos automaticamente*/
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    
+}
+.texto-encima{
+    font-family: sans-serif;
+    position: absolute;
+    top: 60px;
+    left: 120px;
+    color: white;
+    font-size: 53px
+    
+}
+.centrado{
+    font-family: arial;
+    position: absolute;
+    top: 50%;
+    left:30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px
+}
+.botin{
+    position: absolute;
+    top: 240px;
+    left: 130px;
+    
+}
+
+button{
+    border: 0;
+    border-radius: 30px ;
+    color:white;
+    background-color: #ff6600;
+    width: 150px;
+    height: 50px;
+    font-size: 15px
+}
+button:hover{
+    border: 0;
+    border-radius: 30px ;
+    color:white;
+    background-color: orange;
+    width: 150px;
+    height: 50px;
+    font-size: 15px
+    
+}
+.letra{
+    font-family: arial;
+    margin:50px;
+    padding:0px;
+    text-align: center;
+    color:#00008B;
+}
+.padre{
+   padding: 10px;
+   text-align: center;
+}
+.hija{
+    width: 300px;
+    display: inline-block;
+    font-size: 35px
+}
+.Img{
+    
+    display: inline;
+}
+.hija2{
+    
+    width: 250px;
+    margin:10px;
+    paddin:0px;
+    display: inline-block;
+}
+.hija3{
+    width: 900px;
+    margin:10px;
+    
+    display: inline-block;
+}
+hr{
+   width: 81%;
+   color: aliceblue;
+    
+}
+ 
+.padre2{
+   padding: 10px;
+   text-align: center;
+}
+.hija4{
+    color: grey;
+    width:1100px;
+    padding: 10px;
+    margin:10px;
+    display: inline-block;
+    font-size: 25px
+    
+}
+.modal-container{
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100vw;
+    min-height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(79,79,79,0.7);
+    z-index: 1;
+    visibility: hidden;
+    
+}
+.Img2{
+    
+    display: inline;
+    border-radius: 35px;
+}
+.botinB{
+    position: absolute;
+    top: 1200px;
+    left: 1100px;
+    
+}
+.modal-content2{
+    width: 6s00px;
+    height:autos;
+    padding: 10px;
+    
+    border-radius:10px;
+    background-color:  white;
+    text-align: center;
+    
+        
+}
+
+
+.pformu2{
+    text-align: left;
+    padding: 20px;
+    font-size: 20px;
+    display: inline;
+}
+.inputDni2{
+    
+    text-align: left;
+    height: 50px;
+    border:1px solid;
+    border-radius: 5px;
+     top: 950px;
+    left: 895px;
+    
+}
+.contenedorDni2{
+    align: left;
+    
+    
+}
+.button2b{
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 30px ;
+    color:gray;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 15px
+   
+}
+.button2b:hover{
+    border: 1px solid;
+    border-radius: 30px ;
+    color:gray;
+    background-color: ghostwhite;
+    width: 150px;
+    height: 40px;
+    font-size: 15px
+    
+}
+.button3b{
+    cursor: pointer;
+    border: none;
+    color:orange;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 25px
+}
+.button3b:hover{
+    cursor: pointer;
+    border: none;
+    color:orange;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 25px
+    
+}
+.botin4b{
+    position: absolute;
+    top: 910px;
+    left: 230px;
+    
+}
+.botin4b2{
+    position: absolute;
+    top: 910px;
+    left: 540px;
+    
+}
+.botin4b3{
+    position: absolute;
+    top: 910px;
+    left: 835px;
+    
+}
+.botin4b4{
+    position: absolute;
+    top: 910px;
+    left: 1150px;
+    
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#header2 {
+    margin:10px;
+    width:800px;
+    font-family:sans-serif;
+    background-color:#B5B2B2;
+    font-size: 15px
+   
+    
+}
+.nav > p {
+    float:left;
+    text-align: left;
+    text-decoration:none;
+    margin: 2px;
+    display:block;
+}
+
+.nav p a {
+    
+    text-decoration:none;
+    padding:1px;
+    display:block;
+}
+			
+.nav p a:hover {
+    
+    color: orange;
+}
+.nav {
+    width:500px; /*Le establecemos un ancho*/
+    margin:0 auto; /*Centramos automaticamente*/
+}
+.contenedor2{
+    position: relative;
+    display: inline-block;
+    
+}
+.texto-encima2{
+    font-family: sans-serif;
+    position: absolute;
+    top: 90px;
+    left: 200px;
+    color: white;
+    font-size: 53px
+    
+}
+.letra2{
+    font-family: arial;
+    margin:50px;
+    padding:0px;
+    text-align: center;
+    color:#00008B;
+}
+.papi{
+   padding: 10px;
+   text-align: center;
+   display: inline-block;
+}
+.hij{
+    color: grey;
+    width:1040px;
+    display: inline;
+    font-size: 25px
+}
+hr{
+   width: 81%;
+   color: aliceblue;
+    
+}
+.botin4b{
+    position: absolute;
+    top: 910px;
+    left: 230px;
+    
+}
+.botin4b2{
+    position: absolute;
+    top: 910px;
+    left: 540px;
+    
+}
+.botin4b3{
+    position: absolute;
+    top: 910px;
+    left: 835px;
+    
+}
+.botin4b4{
+    position: absolute;
+    top: 910px;
+    left: 1150px;
+    
+}
+.texto-encima-parrafo{
+    color:orangered;
+    font-size: 14px;
+    position: absolute;
+    top: 950px;
+    left: 280px;
+}
+.texto-encima-parrafo2{
+    color:orangered;
+    font-size: 14px;
+    position: absolute;
+    top: 950px;
+    left: 595px;
+}
+.texto-encima-parrafo3{
+    color:orangered;
+    font-size: 14px;
+    position: absolute;
+    top: 950px;
+    left: 895px;
+}
+.texto-encima-parrafo4{
+    color:orangered;
+    font-size: 14px;
+    position: absolute;
+    top: 950px;
+    left: 1225px;
+}
+.modal-container{
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100vw;
+    min-height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(79,79,79,0.7);
+    z-index: 1;
+    visibility: hidden;
+    
+}
+
+.modal-content{
+    width: 600px;
+    height:auto;
+    padding: 10px;
+    
+    border-radius:10px;
+    background-color:  white;
+    text-align: center;
+    
+        
+}
+.contenido{
+    font-size: 30px;
+    
+}   
+
+
+button{
+    cursor: pointer;
+    border: 0;
+    border-radius: 30px ;
+    color:white;
+    background-color: #ff6600;
+    width: 150px;
+    height: 40px;
+    font-size: 15px
+   
+}
+button:hover{
+    border: 0;
+    border-radius: 30px ;
+    color:white;
+    background-color: orange;
+    width: 150px;
+    height: 40px;
+    font-size: 15px
+    
+}
+.pformu{
+    text-align: left;
+    padding: 20px;
+    font-size: 20px;
+    display: inline;
+}
+.inputDni{
+    
+    text-align: left;
+    height: 50px;
+    border:1px solid;
+    border-radius: 5px;
+     top: 950px;
+    left: 895px;
+    
+}
+.contenedorDni{
+    align: left;
+    
+    
+}
+.button2{
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 30px ;
+    color:gray;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 15px
+   
+}
+.button2:hover{
+    border: 1px solid;
+    border-radius: 30px ;
+    color:gray;
+    background-color: ghostwhite;
+    width: 150px;
+    height: 40px;
+    font-size: 15px
+    
+}
+.button3{
+    cursor: pointer;
+    border: none;
+    color:orange;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 25px
+}
+.button3:hover{
+    cursor: pointer;
+    border: none;
+    color:orange;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 25px
+    
+}
+.modal-content2{
+    width: 6s00px;
+    height:autos;
+    padding: 10px;
+    
+    border-radius:10px;
+    background-color:  white;
+    text-align: center;
+    
+        
+}
+
+
+.pformu2{
+    text-align: left;
+    padding: 20px;
+    font-size: 20px;
+    display: inline;
+}
+.inputDni2{
+    
+    text-align: left;
+    height: 50px;
+    border:1px solid;
+    border-radius: 5px;
+     top: 950px;
+    left: 895px;
+    
+}
+.contenedorDni2{
+    align: left;
+    
+    
+}
+.button2b{
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 30px ;
+    color:gray;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 15px
+   
+}
+.button2b:hover{
+    border: 1px solid;
+    border-radius: 30px ;
+    color:gray;
+    background-color: ghostwhite;
+    width: 150px;
+    height: 40px;
+    font-size: 15px
+    
+}
+.button3b{
+    cursor: pointer;
+    border: none;
+    color:orange;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 25px
+}
+.button3b:hover{
+    cursor: pointer;
+    border: none;
+    color:orange;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 25px
+    
+}
+.inputcheck input:checked{
+    border-color: orange;
+    background-color: orange;
+    
+}
+.modal-content3{
+    width: 6s00px;
+    height:autos;
+    padding: 10px;
+    
+    border-radius:10px;
+    background-color:  white;
+    text-align: center;
+    
+        
+}
+
+
+.pformu3{
+    text-align: left;
+    padding: 20px;
+    font-size: 20px;
+    display: inline;
+}
+.inputDni3{
+    
+    text-align: left;
+    height: 50px;
+    border:1px solid;
+    border-radius: 5px;
+     top: 950px;
+    left: 895px;
+    
+}
+.contenedorDni3{
+    align: left;
+    
+    
+}
+.button2ba{
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 30px ;
+    color:gray;
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 15px
+   
+}
+.button2ba:hover{
+    border: 1px solid;
+    border-radius: 30px ;
+    color:gray;
+    background-color: ghostwhite;
+    width: 150px;
+    height: 40px;
+    font-size: 15px
+    
+}
+.button3ba{
+    cursor: pointer;
+    border: none;
+    color:orange;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 25px
+}
+.button3ba:hover{
+    cursor: pointer;
+    border: none;
+    color:orange;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 25px
+    
+}
+.inputcheck input:checked{
+    border-color: orange;
+    background-color: orange;
+    
+}

@@ -1,0 +1,24 @@
+body{
+	text-align: center;
+}
+#principal{
+	display: block;
+	width: 400px;
+	margin: 50px auto;
+	padding: 15px;
+	text-align: center;
+	border: 3px solid rgb(85,252,32);
+	-webkit-border-radius: 20px 10px 30px 40px;
+	background: rgb(255,255,255);
+	outline: 2px solid #FF0000;
+	outline-offset: 10px;
+}
+#titulo{
+	font: bold 40px MiNuevaFuente, verdana,sans-serif;
+	text-shadow: rgba(12, 20, 183,1) 3px 3px 5px;
+	color: #990000;
+}
+@font-face{
+	font-family: "MiNuevaFuente";
+	src: url("font.otf");
+}

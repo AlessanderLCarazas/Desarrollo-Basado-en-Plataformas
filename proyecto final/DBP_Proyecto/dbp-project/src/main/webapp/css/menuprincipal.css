@@ -1,0 +1,454 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 01/08/2022, 05:45:11 PM
+    Author     : GRA
+*/
+@import url(//db.onlinewebfonts.com/c/51ba22ae06790efd464bde752a2cd9d1?family=Flexo);
+@font-face {font-family: "Flexo"; src: url("//db.onlinewebfonts.com/t/51ba22ae06790efd464bde752a2cd9d1.eot"); 
+            src: url("//db.onlinewebfonts.com/t/51ba22ae06790efd464bde752a2cd9d1.eot?#iefix") format("embedded-opentype"), 
+                url("//db.onlinewebfonts.com/t/51ba22ae06790efd464bde752a2cd9d1.woff2") format("woff2"), 
+                url("//db.onlinewebfonts.com/t/51ba22ae06790efd464bde752a2cd9d1.woff") format("woff"), 
+                url("//db.onlinewebfonts.com/t/51ba22ae06790efd464bde752a2cd9d1.ttf") format("truetype"), 
+                url("//db.onlinewebfonts.com/t/51ba22ae06790efd464bde752a2cd9d1.svg#Flexo") format("svg"); }
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Flexo1,sans-serif;
+}
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+.bcp_tipo_cliente{
+    width: 100%;
+    height: 30px;
+    position: static;
+    background-color:  #001f5a;
+    text-decoration: none;
+    color:white;
+}
+#parte01{
+     margin-right:10px;
+     float:left;
+    list-style:none;
+    display:flex;
+     text-decoration: none;
+}
+.arriba{
+    padding-left: 5px;
+    padding-right: 5px;
+     text-decoration: none;
+}
+.bcp_tipo_cliente parte01 a{
+    color:white;
+}
+#segundomenu{
+    margin:auto;
+    background: #002a8d;
+}
+nav {
+  width: 100%;
+    height: 50px;
+  float: left;
+  background: #002a8d;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding-left: 30px;
+}
+nav ul li a {
+  display: block;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background: none;
+}
+.conoce{
+position: absolute;
+    text-align: center;
+    top: 350px;
+    left: 50px;
+    width: 120px;
+    height: 35px;
+    text-decoration: none;
+	padding: 5px 0px;
+	margin: 5px 0px;
+	background: #ff7800;
+	color: #fff3ed;
+	border: 0px;
+	border-radius: 50px;
+        
+    font-size: 10px;
+}
+.banca{
+	background: #ff7800;
+	color: #fff3ed;
+	border: 5px;
+        border-color: white;
+	border-radius: 50px; 
+}
+.cuenta{
+    background: #002a8d;
+    border: 1px white solid;
+    border-radius: 50px;
+}
+.espacio{
+    width: 100%;
+    height: 460px;
+}
+.segundaparte{
+    width: 100%;
+    top:500px;
+    height: 460px;
+    background-color: #f2f4f8;
+}
+.segundaparte .busca{
+    padding: 10px;
+    float: left;
+    position: relative;
+    top: 80px;
+    height: 300px;
+    width: 500px;
+}
+.segundaparte .ele{
+    padding: 10px;
+    float: left;
+}
+.ele1 {
+    position: relative;
+    top: 0px;
+    height: 150px;
+    width: 220px;
+    padding: 5px 0px;
+    margin: 5px 0px;
+    background: white;
+    color: #002a8d;
+    border: 0px;
+    border-radius: 15px;
+}
+.ele2 {
+    position: relative;
+    right: -250px;
+    width: 220px;
+    bottom: 155px;
+    height: 150px;
+    padding: 5px 0px;
+    margin: 5px 0px;
+    background: white;
+    color: #002a8d;
+    border: 0px;
+    border-radius: 15px;
+}
+.ele3 {
+    position: relative;
+    right: -500px;
+    width: 220px;
+    bottom: 310px;
+    height: 150px;
+    padding: 5px 0px;
+    margin: 5px 0px;
+    background: white;
+    color: #002a8d;
+    border: 0px;
+    border-radius: 15px;
+}
+.ele4 {
+     position: relative;
+    right: 0px;
+    width: 220px;
+    bottom: 295px;
+    height: 150px;
+    padding: 5px 0px;
+    margin: 5px 0px;
+    background: white;
+    color: #002a8d;
+    border: 0px;
+    border-radius: 15px;
+}
+.ele5 {
+     position: relative;
+    right: -250px;
+    bottom: 450px;
+    width: 220px;
+    height: 150px;
+    padding: 5px 0px;
+    margin: 5px 0px;
+    background: white;
+    color: #002a8d;
+    border: 0px;
+    border-radius: 15px;
+}
+.ele6 {
+    position: relative;
+    right: -500px;
+    bottom: 605px;
+    width: 220px;
+    height: 150px;
+    padding: 5px 0px;
+    margin: 5px 0px;
+    background: white;
+    color: #002a8d;
+    border: 0px;
+    border-radius: 15px;
+}
+.ver{
+    position: relative;
+    right: -500px;
+    bottom: 600px;
+    
+text-decoration:none;
+color: #ff7800;
+}
+.opciones{
+    padding: 5px 0px;
+    margin: 5px 0px;
+    background: white;
+    color: #002a8d;
+    border: 0px;
+    border-radius: 15px;
+    font-size: 22px;
+}
+.imagen{
+    background-color: #f2f4f8;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.etiqueta{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 50px;
+    background: #3d77ff;
+    color: white;
+    font-size: 10px;
+    border-radius:0px 0px 4px 4px;
+
+}
+
+.ganar{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    width: 700px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 50px;
+}
+.token{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    width: 700px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 50px;
+}
+.ganar02{
+    position: absolute;
+    top: 280px;
+    left: 50px;
+    width: 700px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.token01{
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    width: 600px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+}
+.conoce01{
+position: absolute;
+    top: 300px;
+    left: 100px;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    text-decoration: none;
+	padding: 5px 0px;
+	margin: 5px 0px;
+	background: #ff7800;
+	color: #fff3ed;
+	border: 0px;
+	border-radius: 10px;
+        
+    font-size: 10px;
+}
+.token3 {
+                position: absolute;
+                top:100px;
+                left: -300px;
+                width: 1300px;
+                text-decoration: none;
+                padding-left: 50px;
+            }
+.slide {
+                position: absolute;
+                top:1080px;
+                left: 10px;
+                width: 1300px;
+                text-decoration: none;
+                padding-left: 50px;
+            }
+            .slide-inner {
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+                height: calc( 300px + 3em);
+            }
+            .slide-open:checked + .slide-item {
+                position: static;
+                opacity: 100;
+            }
+            .slide-item {
+                position: absolute;
+                opacity: 0;
+                -webkit-transition: opacity 0.6s ease-out;
+                transition: opacity 0.6s ease-out;
+            }
+            .slide-item img {
+                display: block;
+                height: auto;
+                max-width: 100%;
+            }
+            .slide-control {
+                background: #ff7800;
+                border-radius: 50%;
+                color: #fff;
+                cursor: pointer;
+                display: none;
+                font-size: 40px;
+                height: 40px;
+                line-height: 35px;
+                position: absolute;
+                top: 50%;
+                -webkit-transform: translate(0, -50%);
+                cursor: pointer;
+                -ms-transform: translate(0, -50%);
+                transform: translate(0, -50%);
+                text-align: center;
+                width: 40px;
+                z-index: 10;
+            }
+            .slide-control.prev {
+                left: 2%;
+            }
+            .slide-control.next {
+                right: 2%;
+            }
+            .slide-control:hover {
+                background: #ff7800;
+                color: #fff;
+            }
+            #slide-1:checked ~ .control-1,
+            #slide-2:checked ~ .control-2,
+            #slide-3:checked ~ .control-3,
+             #slide-4:checked ~ .control-4{
+                display: block;
+            }
+            .slide-indicador {
+                list-style: none;
+                background: none;
+                margin: 0;
+                padding: 0;
+                position: absolute;
+                bottom: 2%;
+                left: 400px;
+                right: 0;
+                text-align: center;
+                z-index: 10;
+            }
+            .slide-indicador li {
+                display: inline-block;
+                margin: 0 5px;
+            }
+            .slide-circulo {
+                color: #828282;
+                cursor: pointer;
+                display: block;
+                font-size: 35px;
+            }
+            .slide-circulo:hover {
+                color: #ff7800;
+            }
+            #slide-1:checked ~ .control-1 ~ .slide-indicador 
+                 li:nth-child(1) .slide-circulo,
+            #slide-2:checked ~ .control-2 ~ .slide-indicador 
+                  li:nth-child(2) .slide-circulo,
+            #slide-3:checked ~ .control-3 ~ .slide-indicador 
+                  li:nth-child(3) .slide-circulo,
+            #slide-4:checked ~ .control-4 ~ .slide-indicador 
+                  li:nth-child(4) .slide-circulo{
+                color: #474e54;
+            }
+            .parte03{
+                position: absolute;
+                top:1500px;
+                width: 1348px;
+                height: 400px;
+                background-color:  #002a8d;
+            }
+            .parte031{
+                background: #1843b0;
+                width: 400px;
+                left: 150px;
+                position: absolute;
+                top:150px;
+                border: 0px;
+                border-radius: 15px;
+            }
+            .parte032{
+                left: 700px;
+                position: absolute;
+                top:150px;
+                background: #1843b0;
+                width: 400px;
+                border: 0px;
+                border-radius: 15px;
+            }
+            
+.nav01 > p {
+    float:left;
+    text-align: left;
+    text-decoration:none;
+    margin: 2px;
+    display:block;
+}
+
+.nav01 p a {
+    
+    text-decoration:none;
+    padding:1px;
+    display:block;
+}
+			
+.nav01 p a:hover {
+    
+    color: orange;
+}
+.nav01 {
+    width:500px; /*Le establecemos un ancho*/
+    margin:0 auto; /*Centramos automaticamente*/
+}

@@ -1,0 +1,6 @@
+modelo\ClienteBD.class
+controlador\FormularioCliente.class
+controlador\FormularioClientesAjax.class
+modelo\BDConexion.class
+modelo\Cliente.class
+modelo\PruebaBD.class

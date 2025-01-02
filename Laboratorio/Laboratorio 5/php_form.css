@@ -1,0 +1,20 @@
+* {
+	font-family: sans-serif;
+	text-align: center;
+}
+.btn{
+	display: block;
+	width: 600px;
+	margin: 15px auto;
+	padding: 5px;
+	background-color: #00FF00;
+	border: none;
+	color: white;
+	-webkit-border-radius: 3px;
+}
+.btn:hover{
+	background-color: #006600;
+}
+.col_50{
+	padding: 2px;
+}

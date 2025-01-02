@@ -1,0 +1,133 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 20 ago. 2022, 12:07:15
+    Author     : fhuaquisto
+*/
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #002d87;
+    --secondary-color: #ff7800;
+    --bg-light: #F6F7FC;
+    --color-light: #A7C9FF;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 640px;
+}
+
+.info {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://stbcpzonasegura.viabcp.com/assets/img/HBK-login-fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.info svg {
+    width: 90px;
+    height: 24px;
+    position: absolute;
+    top: 16px;
+    left: 32px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0 0 0;
+}
+
+.form h2 {
+    font-family: 'Flexo';
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.form #login {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form #login h3 {
+    font-family: 'Flexo';
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--primary-color);
+    margin-bottom: 0px;
+}
+
+.form #login input {
+    width: 100%;
+    height: 32px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #888;
+    margin-bottom: 24px;
+}
+
+.form #login #teclado {
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(2, 40px);
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 16px;
+    column-gap: 16px;
+    place-items: center;
+    margin-bottom: 24px;
+}
+
+.form #login #teclado .num-boton {
+    width: 100%;
+    height: 100%;
+    background-color: #bbb;
+    border-radius: 4px;
+    font-family: 'Flexo';
+    font-weight: 600;
+    font-size: 14px;
+    color: #555;
+    display: grid;
+    place-content: center;
+    transition: .5s;
+}
+
+.form #login #teclado .num-boton:hover {
+    background-color: #eee;
+}
+
+.form #login button {
+    width: 100%;
+    height: 32px;
+    border: none;
+    outline: none;
+    background-color: var(--secondary-color);
+    border-radius: 16px;
+    font-family: 'Flexo';
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}

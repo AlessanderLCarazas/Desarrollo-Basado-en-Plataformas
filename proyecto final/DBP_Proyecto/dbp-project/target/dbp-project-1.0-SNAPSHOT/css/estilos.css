@@ -1,0 +1,143 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#header {
+    margin:10px;
+    width:800px;
+    font-family:sans-serif;
+     background-color:#B5B2B2;
+    font-size: 15px
+   
+    
+}
+.nav > p {
+    float:left;
+    text-align: left;
+    text-decoration:none;
+    margin: 2px;
+    display:block;
+}
+
+.nav p a {
+    
+    text-decoration:none;
+    padding:1px;
+    display:block;
+}
+			
+.nav p a:hover {
+    
+    color: orange;
+}
+.nav {
+    width:500px; /*Le establecemos un ancho*/
+    margin:0 auto; /*Centramos automaticamente*/
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    
+}
+.texto-encima{
+    font-family: sans-serif;
+    position: absolute;
+    top: 70px;
+    left: 260px;
+    color: white;
+    font-size: 53px
+    
+}
+.centrado{
+    font-family: arial;
+    position: absolute;
+    top: 45%;
+    left:20.5%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px
+}
+.botin{
+    position: absolute;
+    top: 200px;
+    left: 250px;
+    
+}
+input{
+    border: 0;
+    border-radius: 30px ;
+    color:white;
+    background-color: #ff6600;
+    width: 150px;
+    height: 50px;
+    font-size: 15px
+}
+input:hover{
+    border: 0;
+    border-radius: 30px ;
+    color:white;
+    background-color: orange;
+    width: 150px;
+    height: 50px;
+    font-size: 15px
+    
+}
+.letra{
+    font-family: arial;
+    margin:50px;
+    padding:0px;
+    text-align: center;
+    color:#00008B;
+}
+.padre{
+   padding: 10px;
+   text-align: center;
+}
+.hija{
+    width: 250px;
+    display: inline-block;
+    font-size: 35px
+}
+.Img{
+    
+    display: inline;
+}
+.hija2{
+    
+    width: 250px;
+    margin:10px;
+    paddin:0px;
+    display: inline-block;
+}
+.hija3{
+    width: 900px;
+    margin:10px;
+    
+    display: inline-block;
+}
+hr{
+   width: 81%;
+   color: aliceblue;
+    
+}
+ 
+.padre2{
+   padding: 10px;
+   text-align: center;
+}
+.hija4{
+    color: grey;
+    width:1040px;
+    display: inline-block;
+    font-size: 25px
+    
+}
+.Img2{
+    
+    display: inline;
+    border-radius: 35px;
+}
+.btn2{
+}

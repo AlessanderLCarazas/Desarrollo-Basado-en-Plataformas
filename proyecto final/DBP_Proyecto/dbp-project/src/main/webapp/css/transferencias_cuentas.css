@@ -1,0 +1,260 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 20 ago. 2022, 22:44:47
+    Author     : fhuaquisto
+*/
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #002d87;
+    --secondary-color: #ff7800;
+    --bg-light: #F6F7FC;
+    --color-light: #A7C9FF;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-light);
+}
+
+header {
+    width: 100%;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px 0;
+}
+
+header nav .logo svg {
+    width: 90px;
+    height: 24px;
+}
+
+header nav .menu {
+    display: flex;
+}
+
+header nav .menu .menu_item {
+    height: 56px;
+}
+
+header nav .menu .menu_item a {
+    width: 100%;
+    height: 100%;
+    font-family: 'Flexo';
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    transition: .5s;
+}
+
+header nav .menu .menu_item a:hover {
+    background-color: #002266;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+section .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+section .title h2 {
+    font-family: 'Flexo';
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--primary-color);
+    margin-bottom: 8px;
+}
+
+section .title p {
+    font-family: 'Flexo';
+    font-weight: 400;
+    font-size: 16px;
+    color: #666;
+}
+
+section form.hidden {
+    display: none;
+}
+
+section form .form {
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    margin-bottom: 56px;
+}
+
+section form .form .group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    gap: 40px;
+}
+
+section form .form .group .input {
+    margin: 0;
+}
+
+section form .input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+section form .input label {
+    font-family: 'Flexo';
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--primary-color);
+    margin-bottom: 4px;
+}
+
+section .form .input select {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #bbb;
+    outline: none;
+    font-family: 'Flexo';
+    font-weight: 400;
+    color: #777;
+}
+
+section .form .input select option {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+section .form .input input {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #bbb;
+    outline: none;
+    font-family: 'Flexo';
+    font-weight: 400;
+    color: #777;
+}
+
+section .box.hidden {
+    display: none;
+}
+
+section .box {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 32px;
+}
+
+section .box .card {
+    width: 640px;
+    border-radius: 8px;
+    box-shadow: rgba(167, 201, 255, .25) 1.5px 1.5px 9px;
+    background: #fff;
+    padding: 32px 40px;
+}
+
+section .box .card h3 {
+    font-family: 'Flexo';
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--primary-color);
+    margin-bottom: 16px; 
+}
+
+section .box .card span {
+    font-family: 'Flexo';
+    font-weight: 400;
+    font-size: 14px;
+    color: #767676;
+}
+
+section .box .card p {
+    font-family: 'Flexo';
+    font-weight: 600;
+    font-size: 18px;
+    color: #444;
+    margin-top: 16px;
+}
+
+section .box .monto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -12px;
+    font-family: 'Flexo';
+    font-weight: 600;
+    font-size: 16px;
+    color: #444;
+}
+
+
+
+section .actions {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+section .actions button {
+    background-color: var(--secondary-color);
+    padding: 8px 40px;
+    border: none;
+    border-radius: 24px;
+    color: white;
+    font-family: 'Flexo';
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+    align-self: flex-end;
+    margin-top: 24px;
+}
+
+section .actions button.volver {
+    background-color: transparent;
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

@@ -1,0 +1,33 @@
+fun main() {
+   	var n1=96
+    var n2=160
+    var n3=24 
+    
+    
+    var numero=0
+    var residuo=0
+   	var mcd=0
+    for (i in 1..3){
+        if (i == 0){
+			numero = n1
+			mcd = numero
+        } else {
+            if (i == 1){
+                numero = n2
+                do{
+                    residuo = mcd % numero
+                    mcd = numero
+                    numero = residuo
+                } while (residuo != 0)
+            } else {
+                numero = n3
+                do {
+                    residuo = mcd % numero
+                    mcd = numero
+                    numero = residuo
+                } while (residuo != 0)
+            }
+        }
+    }
+    println("El maximo comun divisor de: " + n1 + " - " + n2 + " - " + n3 + " : es: " + mcd)
+}

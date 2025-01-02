@@ -1,0 +1,70 @@
+* {
+	font-family: sans-serif;
+}
+.relleno {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding-left: -5px;
+	padding-reight: -5px;
+}
+.campos {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	width: 80%;
+}
+.col_50 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-left: 5px;
+	padding-reight: 5px;
+	box-sizing: border-box;
+	width: 20%;
+}
+.col_100 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-left: 5px;
+	padding-reight: 5px;
+	box-sizing: border-box;
+	width: 20%;
+}
+.tabla {
+	border-collapse: collapse;
+	margin: auto;
+}
+.tabla thead{
+	background-color: #000000;
+	color: white;
+}
+.tabla tr{
+	border-bottom: 1px solid #cbcbcb;
+}
+.tabla th, .tabla td{
+	border: none;
+	padding: 8px 20px;
+}
+.tabla_ingreso{
+	margin: auto;
+}
+.btn{
+	display: block;
+	width: 600px;
+	margin: 15px auto;
+	padding: 5px;
+	background-color: #00FF00;
+	border: none;
+	color: white;
+	-webkit-border-radius: 3px;
+}
+.btn:hover{
+	background-color: #006600;
+}

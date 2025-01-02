@@ -1,0 +1,23 @@
+* {
+	font-family: sans-serif;
+	text-align: center;
+}
+.tabla {
+	border-collapse: collapse;
+	margin: auto;
+}
+.tabla thead{
+	background-color: #000000;
+	color: white;
+}
+.tabla tr{
+	border-bottom: 1px solid #cbcbcb;
+}
+.tabla th, .tabla td{
+	border: none;
+	padding: 8px 20px;
+}
+.tabla_ingreso{
+	margin: auto;
+}
+

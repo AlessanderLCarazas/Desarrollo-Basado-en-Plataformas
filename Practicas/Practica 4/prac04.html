@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8" />
+	<title>Tabla Multiplicar 2-20/JS</title>
+	<link rel="stylesheet" href="estiloTab.css">
+	<script type="text/javascript">
+		function insertar(){
+			var n=parseInt(document.getElementById("numero").value);
+			if (n>10){
+				alert("Ingrese por favor un número que sea menor o igual a 10.");
+			}
+			else if (n<=10){
+				var t=document.getElementById("tablaMulti");
+				t.lastElementChild.insertAdjacentHTML("beforeend", "<tr><td>"+n+"</td><td>"+n*2+"</td><td>"+n*3+"</td><td>"+n*4+"</td><td>"+n*5+"</td><td>"+n*6+"</td><td>"+n*7+"</td><td>"+n*8+"</td><td>"+n*9+"</td><td>"+n*10+"</td><td>"+n*11+"</td><td>"+n*12+"</td><td>"+n*13+"</td><td>"+n*14+"</td><td>"+n*15+"</td><td>"+n*16+"</td><td>"+n*17+"</td><td>"+n*18+"</td><td>"+n*19+"</td><td>"+n*20+"</td><td>"+"</td></tr>");
+			}
+			else{
+				alert("Ingrese por favor un número.");
+			}
+		}
+	</script>
+</head>
+<body>
+	<section id="seccion">
+		<h1>Alessander Jesus Carazas Quispe</h1>
+		<table class="tabla_ingreso">
+			<tr>
+				<td><input type="submit" value="Insertar" onclick="insertar();"/></td>
+				<td><input id="numero" type="text" /></td>
+			</tr>
+		</table>
+		<br><br>
+		<table id="tablaMulti" class="tabla">
+			<thead>
+				<tr>
+					<th>Num</th>
+					<th>x2</th>
+					<th>x3</th>
+					<th>x4</th>
+					<th>x5</th>
+					<th>x6</th>
+					<th>x7</th>
+					<th>x8</th>
+					<th>x9</th>
+					<th>x10</th>
+					<th>x11</th>
+					<th>x12</th>
+					<th>x13</th>
+					<th>x14</th>
+					<th>x15</th>
+					<th>x16</th>
+					<th>x17</th>
+					<th>x18</th>
+					<th>x19</th>
+					<th>x20</th>	
+				</tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+	</section>
+</body>
+</html>

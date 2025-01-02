@@ -1,0 +1,35 @@
+body {
+	text-align: center;
+}
+.principal_1 {
+	display: block;
+	width: 500px;
+	margin: 50px auto;
+	padding: 15px;
+	text-align: center;
+	border: 1px solid #999999;
+	background: #DDDDDD;
+}
+.titulo_1 {
+	font: bold 36px verdana, sans-serif;
+}
+.principal_2 {
+	display: block;
+	width: 500px;
+	margin: 50px auto;
+	padding: 15px;
+	text-align: center;
+	border: 1px solid #999999;
+	background: #DDDDDD;
+	-webkit-border-radius: 20px;
+	-webkit-box-shadow: rgb(150,150,150) 5px 5px 10px;
+	background: -webkit-radial-gradient(center,circle,#FFFFFF 0%, #006699 200%)
+}
+.titulo_2 {
+	font: bold 36px MiNuevaFuente, verdana,sans-serif;
+	text-shadow: rgb(0,0,150) 3px 3px 5px;
+}
+@font-face {
+	font-family: "MiNuevaFuente";
+	src: url("font.otf");
+}
